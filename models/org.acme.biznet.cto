@@ -26,5 +26,4 @@ transaction Trade {
 event TradeEvent {
   --> Commodity commodity
   --> Trader oldOwner
-  --> Trader newOwner
 }
