@@ -8,7 +8,7 @@ This project is licensed under the [Apache-2.0 license](LICENSE.md).
 
 ## Author
 
-Marcus R. Brown <[me@igetgam.es](me@igetgam.es)>
+Marcus R. Brown <<me@igetgam.es>>
 
 [![Twitter Follow][twitter-follow-badge]][twitter-url]
 
