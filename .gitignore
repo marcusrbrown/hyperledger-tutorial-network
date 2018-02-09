@@ -8,6 +8,8 @@ coverage
 
 # production
 build
+*.card
+*.bna
 
 # misc
 .DS_Store
