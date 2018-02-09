@@ -9,11 +9,12 @@
   "email": "me@igetgam.es",
   "license": "Apache-2.0",
   "devDependencies": {
+    "chai": "latest",
     "composer-admin": "latest",
+    "composer-cli": "latest",
     "composer-client": "latest",
     "composer-common": "latest",
     "composer-connector-embedded": "latest",
-    "chai": "latest",
     "eslint": "latest",
     "istanbul": "latest",
     "mkdirp": "latest",
