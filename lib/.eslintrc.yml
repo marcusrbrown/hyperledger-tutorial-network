@@ -1,12 +1,18 @@
 env:
-  es6: true
   node: true
   mocha: true
 extends: 'eslint:recommended'
 parserOptions:
-  ecmaVersion: 2015
   sourceType:
     - script
+globals: 
+  getFactory: true
+  getSerializer: true
+  getAssetRegistry: true
+  getParticipantRegistry: true
+  getCurrentParticipant: true
+  post: true
+  emit: true
 rules:
   indent:
     - error
