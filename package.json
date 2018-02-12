@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Hyperledger Composer tutorial network.",
   "scripts": {
+    "build": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/tutorial-network.bna",
     "test": "mocha --recursive"
   },
   "author": "Marcus R. Brown",
