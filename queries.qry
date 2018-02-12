@@ -1,0 +1,12 @@
+query selectCommodities {
+  description: "Select all commodities"
+  statement:
+    SELECT org.acme.biznet.Commodity
+}
+
+query selectCommoditiesByOwner {
+  description: "Select all commodities based on their owner"
+  statement:
+    SELECT org.acme.biznet.Commodity
+      WHERE (owner == _$owner)
+}
