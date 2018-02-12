@@ -637,7 +637,7 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chai@latest:
+chai@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chai/-/chai-4.1.2.tgz#0f64584ba642f0f2ace2806279f4f06ca23ad73c"
   dependencies:
@@ -851,14 +851,14 @@ commondir@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-0.0.1.tgz#89f00fdcd51b519c578733fec563e6a6da7f5be2"
 
-composer-admin@0.16.3, composer-admin@latest:
+composer-admin@0.16.3, composer-admin@^0.16.3:
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/composer-admin/-/composer-admin-0.16.3.tgz#aa69c5df5e27627c7137cd6d0f3ecb318db386eb"
   dependencies:
     composer-common "0.16.3"
     composer-connector-hlfv1 "0.16.3"
 
-composer-cli@latest:
+composer-cli@^0.16.3:
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/composer-cli/-/composer-cli-0.16.3.tgz#a1a69eb1daedea45b7ec97436cfb0d67794ac7ac"
   dependencies:
@@ -880,7 +880,7 @@ composer-cli@latest:
     shelljs "0.7.7"
     yargs "10.0.3"
 
-composer-client@0.16.3, composer-client@latest:
+composer-client@0.16.3, composer-client@^0.16.3:
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/composer-client/-/composer-client-0.16.3.tgz#00dd9fa36dfce7099561cdda899c5f4e5aaad444"
   dependencies:
@@ -888,7 +888,7 @@ composer-client@0.16.3, composer-client@latest:
     composer-connector-hlfv1 "0.16.3"
     uuid "3.0.1"
 
-composer-common@0.16.3, composer-common@latest:
+composer-common@0.16.3, composer-common@^0.16.3:
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/composer-common/-/composer-common-0.16.3.tgz#ae0e7431463786799bbe968b8ee663281023d313"
   dependencies:
@@ -920,7 +920,7 @@ composer-common@0.16.3, composer-common@latest:
     uuid "3.0.1"
     winston "2.3.1"
 
-composer-connector-embedded@latest:
+composer-connector-embedded@^0.16.3:
   version "0.16.3"
   resolved "https://registry.yarnpkg.com/composer-connector-embedded/-/composer-connector-embedded-0.16.3.tgz#a1b946cb0f8304ac2ef8b6ec2b91fe731f35d6d2"
   dependencies:
@@ -1517,7 +1517,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.13.0, eslint@latest:
+eslint@^4.13.0, eslint@^4.17.0:
   version "4.17.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.17.0.tgz#dc24bb51ede48df629be7031c71d9dc0ee4f3ddf"
   dependencies:
@@ -2708,7 +2708,7 @@ istanbul-lib-instrument@1.7.2:
     istanbul-lib-coverage "^1.1.1"
     semver "^5.3.0"
 
-istanbul@latest:
+istanbul@^0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/istanbul/-/istanbul-0.4.5.tgz#65c7d73d4c4da84d4f3ac310b918fb0b8033733b"
   dependencies:
@@ -3402,7 +3402,7 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@0.x.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@latest, mkdirp@~0.5.0:
+mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@0.x.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
@@ -3414,7 +3414,7 @@ mktmpdir@^0.1.1:
   dependencies:
     rimraf "~2.2.8"
 
-mocha@latest:
+mocha@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-5.0.0.tgz#cccac988b0bc5477119cba0e43de7af6d6ad8f4e"
   dependencies:
