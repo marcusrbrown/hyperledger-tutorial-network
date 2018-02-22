@@ -867,23 +867,24 @@ commondir@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-0.0.1.tgz#89f00fdcd51b519c578733fec563e6a6da7f5be2"
 
-composer-admin@0.16.3, composer-admin@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-admin/-/composer-admin-0.16.3.tgz#aa69c5df5e27627c7137cd6d0f3ecb318db386eb"
+composer-admin@0.16.4, composer-admin@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-admin/-/composer-admin-0.16.4.tgz#ee8bccee521a0bebac429730ff023ef18d73db57"
   dependencies:
-    composer-common "0.16.3"
-    composer-connector-hlfv1 "0.16.3"
+    composer-common "0.16.4"
+    composer-connector-hlfv1 "0.16.4"
 
-composer-cli@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-cli/-/composer-cli-0.16.3.tgz#a1a69eb1daedea45b7ec97436cfb0d67794ac7ac"
+composer-cli@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-cli/-/composer-cli-0.16.4.tgz#8a76e94004931514befe7bb0984e91ceafda1290"
   dependencies:
     chalk "1.1.3"
     cli-table "0.3.1"
-    composer-admin "0.16.3"
-    composer-client "0.16.3"
-    composer-common "0.16.3"
-    composer-rest-server "0.16.3"
+    composer-admin "0.16.4"
+    composer-client "0.16.4"
+    composer-common "0.16.4"
+    composer-connector-hlfv1 "0.16.4"
+    composer-rest-server "0.16.4"
     figlet "1.2.0"
     homedir "0.6.0"
     mkdirp "0.5.1"
@@ -896,17 +897,17 @@ composer-cli@^0.16.3:
     shelljs "0.7.7"
     yargs "10.0.3"
 
-composer-client@0.16.3, composer-client@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-client/-/composer-client-0.16.3.tgz#00dd9fa36dfce7099561cdda899c5f4e5aaad444"
+composer-client@0.16.4, composer-client@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-client/-/composer-client-0.16.4.tgz#468f091dc977904e3dcb91ddefaefc7e5b07c747"
   dependencies:
-    composer-common "0.16.3"
-    composer-connector-hlfv1 "0.16.3"
+    composer-common "0.16.4"
+    composer-connector-hlfv1 "0.16.4"
     uuid "3.0.1"
 
-composer-common@0.16.3, composer-common@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-common/-/composer-common-0.16.3.tgz#ae0e7431463786799bbe968b8ee663281023d313"
+composer-common@0.16.4, composer-common@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-common/-/composer-common-0.16.4.tgz#7d049e6144abb4d892f87278b7709f29e607d8ec"
   dependencies:
     acorn "5.1.2"
     browserfs "1.1.0"
@@ -936,37 +937,38 @@ composer-common@0.16.3, composer-common@^0.16.3:
     uuid "3.0.1"
     winston "2.3.1"
 
-composer-connector-embedded@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-connector-embedded/-/composer-connector-embedded-0.16.3.tgz#a1b946cb0f8304ac2ef8b6ec2b91fe731f35d6d2"
+composer-connector-embedded@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-connector-embedded/-/composer-connector-embedded-0.16.4.tgz#a58856ed105acee0786e55809bd1afa0e14c337d"
   dependencies:
-    composer-common "0.16.3"
-    composer-runtime "0.16.3"
-    composer-runtime-embedded "0.16.3"
+    composer-common "0.16.4"
+    composer-runtime "0.16.4"
+    composer-runtime-embedded "0.16.4"
 
-composer-connector-hlfv1@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-connector-hlfv1/-/composer-connector-hlfv1-0.16.3.tgz#ccbeaa859da01fc68f1911e84f15fc1847292890"
+composer-connector-hlfv1@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-connector-hlfv1/-/composer-connector-hlfv1-0.16.4.tgz#64ade1afbcb3c9ff254a937d165b5e61976c5172"
   dependencies:
-    composer-common "0.16.3"
-    composer-runtime-hlfv1 "0.16.3"
-    fabric-ca-client "1.0.2"
-    fabric-client "1.0.2"
+    composer-common "0.16.4"
+    composer-runtime-hlfv1 "0.16.4"
+    fabric-ca-client "1.0.3"
+    fabric-client "1.0.3"
     fs-extra "1.0.0"
     grpc ">=1.3.5 <1.7.0"
+    jsrsasign "8.0.3"
     semver "5.3.0"
     temp "0.8.3"
     thenify-all "1.6.0"
     uuid "3.0.1"
 
-composer-rest-server@0.16.3, composer-rest-server@^0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-rest-server/-/composer-rest-server-0.16.3.tgz#d6f62226a996ee6a09d22e5315c53926c134465f"
+composer-rest-server@0.16.4, composer-rest-server@^0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-rest-server/-/composer-rest-server-0.16.4.tgz#030c35bac82d7bcc44b06624dd93fc3ca1033464"
   dependencies:
     body-parser "1.17.0"
     clui "0.3.1"
-    composer-admin "0.16.3"
-    composer-common "0.16.3"
+    composer-admin "0.16.4"
+    composer-common "0.16.4"
     compression "1.0.3"
     connect-ensure-login "0.1.1"
     cookie-parser "1.4.3"
@@ -982,7 +984,7 @@ composer-rest-server@0.16.3, composer-rest-server@^0.16.3:
     loopback-boot "2.25.0"
     loopback-component-explorer "5.2.0"
     loopback-component-passport "3.2.0"
-    loopback-connector-composer "0.16.3"
+    loopback-connector-composer "0.16.4"
     passport-local "1.0.0"
     serve-favicon "2.0.1"
     strong-error-handler "1.0.1"
@@ -990,29 +992,29 @@ composer-rest-server@0.16.3, composer-rest-server@^0.16.3:
     ws "3.0.0"
     yargs "10.0.3"
 
-composer-runtime-embedded@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-runtime-embedded/-/composer-runtime-embedded-0.16.3.tgz#36cda62415b972b0053463da913c13c4c471ac98"
+composer-runtime-embedded@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-runtime-embedded/-/composer-runtime-embedded-0.16.4.tgz#14069574e22f654d28de18053cc3dc4258fee636"
   dependencies:
-    composer-common "0.16.3"
-    composer-runtime "0.16.3"
-    composer-runtime-pouchdb "0.16.3"
+    composer-common "0.16.4"
+    composer-runtime "0.16.4"
+    composer-runtime-pouchdb "0.16.4"
     debug "2.6.2"
     istanbul-lib-instrument "1.7.2"
     pouchdb-adapter-memory "6.2.0"
     request "2.81.0"
     uuid "3.0.1"
 
-composer-runtime-hlfv1@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-runtime-hlfv1/-/composer-runtime-hlfv1-0.16.3.tgz#87f8d866cd298200e4995041a7c824833216dcf2"
+composer-runtime-hlfv1@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-runtime-hlfv1/-/composer-runtime-hlfv1-0.16.4.tgz#4ecc26ef083926709e780a604a53bf05225d8810"
 
-composer-runtime-pouchdb@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-runtime-pouchdb/-/composer-runtime-pouchdb-0.16.3.tgz#061413d084202cb872204a4e284ae6667fe3d4b9"
+composer-runtime-pouchdb@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-runtime-pouchdb/-/composer-runtime-pouchdb-0.16.4.tgz#93dadaf75e46f5bd138b49cdf9eae2cdef698e51"
   dependencies:
-    composer-common "0.16.3"
-    composer-runtime "0.16.3"
+    composer-common "0.16.4"
+    composer-runtime "0.16.4"
     debug "2.6.2"
     istanbul-lib-instrument "1.7.2"
     pouchdb-collate "6.2.0"
@@ -1021,11 +1023,11 @@ composer-runtime-pouchdb@0.16.3:
     request "2.81.0"
     uuid "3.0.1"
 
-composer-runtime@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/composer-runtime/-/composer-runtime-0.16.3.tgz#b3756d43fd76a4eb1cfb25dcbecebb9672343b3e"
+composer-runtime@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/composer-runtime/-/composer-runtime-0.16.4.tgz#ca700c6b5fb9e7ae689d01af5c439f5673f81f45"
   dependencies:
-    composer-common "0.16.3"
+    composer-common "0.16.4"
     debug "2.6.2"
     fast-json-patch "1.1.8"
     lru-cache "4.0.2"
@@ -1790,9 +1792,9 @@ eyes@0.1.8, eyes@0.1.x:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
 
-fabric-ca-client@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/fabric-ca-client/-/fabric-ca-client-1.0.2.tgz#a965e263a0f679ad55087aef8a53a6e09ada2931"
+fabric-ca-client@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/fabric-ca-client/-/fabric-ca-client-1.0.3.tgz#37265c64b8080749d69d8bbfb4035b45a2e6275a"
   dependencies:
     bn.js "^4.11.3"
     elliptic "^6.2.3"
@@ -1801,15 +1803,15 @@ fabric-ca-client@1.0.2:
     jsrsasign "^6.2.2"
     jssha "^2.1.0"
     nconf "^0.8.4"
-    sjcl "1.0.3"
+    sjcl "1.0.7"
     sjcl-codec "0.1.1"
     url "^0.11.0"
     util "^0.10.3"
     winston "^2.2.0"
 
-fabric-client@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/fabric-client/-/fabric-client-1.0.2.tgz#5ad575dc1f1ed4e33f287f1594e108b6c0fefde1"
+fabric-client@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/fabric-client/-/fabric-client-1.0.3.tgz#d05f238fc0a6538a67a32d4fd4be0ab603771993"
   dependencies:
     bn.js "^4.11.3"
     callsite "^1.0.0"
@@ -1828,7 +1830,7 @@ fabric-client@1.0.2:
     path "^0.12.7"
     pkcs11js "^1.0.6"
     promise-settle "^0.3.0"
-    sjcl "1.0.3"
+    sjcl "1.0.7"
     sjcl-codec "0.1.1"
     stream-buffers "3.0.1"
     tar-stream "1.5.2"
@@ -2950,6 +2952,10 @@ jsrsasign@6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-6.2.2.tgz#84a0f85ba4aac7a79c358badb26ed99913172dbc"
 
+jsrsasign@8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.3.tgz#04017b1452f5f7ef6cfff053fede4d397afc8910"
+
 jsrsasign@^6.2.2:
   version "6.2.3"
   resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-6.2.3.tgz#c474bd7861e5dc444de55fb54a0bb9e566322757"
@@ -3225,12 +3231,12 @@ loopback-component-passport@3.2.0:
     strong-globalize "^2.6.2"
     underscore "^1.8.3"
 
-loopback-connector-composer@0.16.3:
-  version "0.16.3"
-  resolved "https://registry.yarnpkg.com/loopback-connector-composer/-/loopback-connector-composer-0.16.3.tgz#4090e7f6b5bccf78e69a090038307b13ca51da03"
+loopback-connector-composer@0.16.4:
+  version "0.16.4"
+  resolved "https://registry.yarnpkg.com/loopback-connector-composer/-/loopback-connector-composer-0.16.4.tgz#f99ae51af31dfd7221d744db0c73c5e4d0081424"
   dependencies:
-    composer-client "0.16.3"
-    composer-common "0.16.3"
+    composer-client "0.16.4"
+    composer-common "0.16.4"
     loopback "3.4.0"
     loopback-connector "4.0.0"
     node-cache "4.1.1"
@@ -4934,9 +4940,9 @@ sjcl-codec@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/sjcl-codec/-/sjcl-codec-0.1.1.tgz#6ae6fd736c4e05bffda4bc61a18a31f57d761d95"
 
-sjcl@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/sjcl/-/sjcl-1.0.3.tgz#4ed486498ed6b742b5d4a21902268116f054a709"
+sjcl@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/sjcl/-/sjcl-1.0.7.tgz#32b365a50dc9bba26b88ba3c9df8ea34217d9f45"
 
 slice-ansi@1.0.0:
   version "1.0.0"
