@@ -5,9 +5,10 @@
   "scripts": {
     "build": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/tutorial-network.bna",
     "network:ping": "composer network ping -c admin@tutorial-network",
-    "network:start": "composer network start -c PeerAdmin@fabric-network -a ./dist/tutorial-network.bna -A admin -S adminpw",
+    "network:start": "composer network start -c PeerAdmin@hlfv1 -a ./dist/tutorial-network.bna -A admin -S adminpw",
     "network:update": "composer network update -c admin@tutorial-network -a ./dist/tutorial-network.bna",
     "rest-server": "composer-rest-server -c admin@tutorial-network -n never -w true",
+    "runtime:install": "composer runtime install -c PeerAdmin@hlfv1 -n tutorial-network",
     "test": "mocha --recursive"
   },
   "author": "Marcus R. Brown",
