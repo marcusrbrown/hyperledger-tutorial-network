@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "4.3.6",
-    "composer-admin": "^0.16.4",
+    "composer-admin": "0.20.9",
     "composer-cli": "^0.16.4",
     "composer-client": "^0.16.4",
     "composer-common": "^0.16.4",
