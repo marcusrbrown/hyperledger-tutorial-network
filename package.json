@@ -17,7 +17,7 @@
   "devDependencies": {
     "chai": "4.3.6",
     "composer-admin": "0.20.9",
-    "composer-cli": "^0.16.4",
+    "composer-cli": "0.20.9",
     "composer-client": "^0.16.4",
     "composer-common": "^0.16.4",
     "composer-connector-embedded": "^0.16.4",
