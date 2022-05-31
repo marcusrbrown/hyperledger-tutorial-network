@@ -19,7 +19,7 @@
     "composer-admin": "0.20.9",
     "composer-cli": "0.20.9",
     "composer-client": "0.20.9",
-    "composer-common": "^0.16.4",
+    "composer-common": "0.20.9",
     "composer-connector-embedded": "^0.16.4",
     "composer-rest-server": "^0.16.4",
     "eslint": "^4.17.0",

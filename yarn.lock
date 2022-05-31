@@ -1123,7 +1123,7 @@ composer-client@0.20.9:
     composer-wallet-inmemory "0.20.9"
     uuid "3.0.1"
 
-composer-common@0.16.4, composer-common@^0.16.4:
+composer-common@0.16.4:
   version "0.16.4"
   resolved "https://registry.yarnpkg.com/composer-common/-/composer-common-0.16.4.tgz#7d049e6144abb4d892f87278b7709f29e607d8ec"
   dependencies:
