@@ -20,7 +20,7 @@
     "composer-cli": "0.20.9",
     "composer-client": "0.20.9",
     "composer-common": "0.20.9",
-    "composer-connector-embedded": "^0.16.4",
+    "composer-connector-embedded": "0.20.9",
     "composer-rest-server": "^0.16.4",
     "eslint": "^4.17.0",
     "istanbul": "^0.4.5",
